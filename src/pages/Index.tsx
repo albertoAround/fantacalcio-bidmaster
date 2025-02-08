@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { PlayerCard } from "@/components/PlayerCard";
 import { useToast } from "@/components/ui/use-toast";
@@ -26,6 +25,7 @@ const MOCK_PLAYERS = [
     startingPrice: 25,
     currentBid: 28,
     timeLeft: "2:30",
+    currentBidTeam: "Team A"
   },
   {
     id: 2,
@@ -35,6 +35,7 @@ const MOCK_PLAYERS = [
     startingPrice: 20,
     currentBid: 20,
     timeLeft: "3:45",
+    currentBidTeam: "Team B"
   },
   {
     id: 3,
@@ -44,6 +45,7 @@ const MOCK_PLAYERS = [
     startingPrice: 22,
     currentBid: 25,
     timeLeft: "1:15",
+    currentBidTeam: "Team C"
   },
 ];
 
@@ -284,4 +286,3 @@ const Index = () => {
 };
 
 export default Index;
-
